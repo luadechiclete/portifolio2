@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 * {
     padding: 0;
@@ -8,10 +8,12 @@
 }
 
 img {
-    width: 70px;
+    width: 68px;
 }
 
 header {
+    width: 100vw;
+    height: 90px;
     display: flex;
     background-color: #A0887F;
     align-items: center;
@@ -22,8 +24,18 @@ header {
 a {
     color: #FFF9F5;
     font-size: 20px;
+    text-decoration: none;
+    margin-right: 30px;
+
+    font-weight: 500;
 }
 
 nav {
     margin-left: 2em;
+}
+
+#button {
+    background-color: #312725;
+    padding: 17px;
+    border-radius: 31px;
 }
